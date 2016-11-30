@@ -10,5 +10,5 @@ from django.conf.urls import url, include
 # Local Imports
 
 urlpatterns = [
-    url(r'^v1/', include('{{ app_name }}.api.v1.urls')),  # Version 1
+    url(r'^v1/', include('{{app_name}}.api.v1.urls')),  # Version 1
 ]

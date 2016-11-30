@@ -18,4 +18,4 @@ from django.core.exceptions import ValidationError
 # Local Imports
 
 
-# Forms For {{ app_name|title }}
+# Forms For {{app_name | title}}

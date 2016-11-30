@@ -28,4 +28,4 @@ from company.models import Company, StaffMember
 pytestmark = pytest.mark.django_db  # Used As py.test Give Error When Saved To Database
 
 
-# Tests For {{ app_name|title }}
+# Tests For {{app_name | title}}

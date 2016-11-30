@@ -16,14 +16,14 @@ from rest_framework import status
 # Inter App Imports
 
 # Local Imports
-from .serializers import {{ app_name|title }}Serializer
+from .serializers import {{app_name | title}}Serializer
 
 
-class {{ app_name|title }}APIView(APIView):
+class {{app_name | title}}APIView(APIView):
     """
-    For {{ app_name|title }}
+    For {{app_name | title}}
     URL: [<host>/api/v1/otp.json]
     Method Allowed ['GET']
     """
     permission_classes = [IsAuthenticated, ]
-    serializer_class = {{ app_name|title }}Serializer
+    serializer_class = {{app_name | title}}Serializer

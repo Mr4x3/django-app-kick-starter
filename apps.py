@@ -10,5 +10,5 @@ from django.apps import AppConfig
 # Local Imports
 
 
-class {{ app_name|title }}Config(AppConfig):
-    name = '{{ app_name }}'
+class {{app_name | title}}Config(AppConfig):
+    name = '{{app_name}}'

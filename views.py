@@ -26,4 +26,4 @@ from django.db.models import F
 # Local Imports
 
 
-# Views For {{ app_name|title }}
+# Views For {{app_name | title}}
