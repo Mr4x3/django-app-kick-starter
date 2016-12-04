@@ -17,7 +17,7 @@ __or__
 - `$ django-admin startapp YOUR-APP-NAME --template=~/Documents/django-projects/django-app-kick-starter --extension=py,md,html,env`
 
 
-[docs]: https://github.com/Mr4x3/django-app-kick-starter/blob/master/README.md
+[docs]: https://github.com/Mr4x3/django-app-kick-starter/README.md
 
 Rest of This Readme Will Be Copied to the Generated Project.
 
