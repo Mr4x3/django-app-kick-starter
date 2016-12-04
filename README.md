@@ -10,11 +10,14 @@
 
 ## Quick Start:
 
-1. `$ django-admin startapp YOUR-APP-NAME --template=https://Mr4x3@bitbucket.org/Mr4x3/django-app-starter.git`
-2. `$ django-admin startapp authentication --template=~/Documents/django-projects/django-app-starter`
+- `$ django-admin startapp YOUR-APP-NAME --template=https://github.com/Mr4x3/django-app-kick-starter/archive/master.zip`
+
+__or__
+
+- `$ django-admin startapp authentication --template=~/Documents/django-projects/django-app-kick-starter`
 
 
-[docs]: https://Mr4x3@bitbucket.org/Mr4x3/django-app-starter/README.md
+[docs]: https://github.com/Mr4x3/django-app-kick-starter/blob/master/README.md
 
 Rest of This Readme Will Be Copied to the Generated Project.
 
