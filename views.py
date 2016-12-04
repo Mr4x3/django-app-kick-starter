@@ -27,7 +27,7 @@ from .models import {{app_name | title}}
 # Views For {{app_name | title}}
 class Add{{app_name | title}}View(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     """
-    View To Add {{app_name | title}}
+    View To Add A {{app_name | title}}.
     """
 
     model = {{app_name | title}}
@@ -40,7 +40,7 @@ class Add{{app_name | title}}View(LoginRequiredMixin, SuccessMessageMixin, Creat
 
 class Detail{{app_name | title}}View(LoginRequiredMixin, SuccessMessageMixin, DetailView):
     """
-    View To Get Detail Of {{app_name | title}}
+    View To Get Detail Of A {{app_name | title}}.
     """
 
     model = {{app_name | title}}
@@ -49,7 +49,7 @@ class Detail{{app_name | title}}View(LoginRequiredMixin, SuccessMessageMixin, De
 
 class List{{app_name | title}}View(LoginRequiredMixin, StaffRequiredMixin, ListView):
     """
-    List All {{app_name | title}} Objects
+    List All {{app_name | title}}s.
     """
 
     model = {{app_name | title}}
@@ -58,7 +58,7 @@ class List{{app_name | title}}View(LoginRequiredMixin, StaffRequiredMixin, ListV
 
 class Update{{app_name | title}}View(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
     """
-    Update {{app_name | title}} Data
+    Update A {{app_name | title}}'s Data.
     """
 
     model = {{app_name | title}}

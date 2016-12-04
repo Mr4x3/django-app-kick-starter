@@ -19,7 +19,7 @@ from .models import {{app_name | title}}
 # Forms For {{app_name | title}}
 class {{app_name | title}}Form(forms.ModelForm):
     """
-    Create A {{app_name | title}} Form For {{project_name | title}}
+    Create A {{app_name | title}} Form.
     """
 
     class Meta:
