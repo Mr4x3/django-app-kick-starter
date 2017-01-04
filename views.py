@@ -33,8 +33,8 @@ class Add{{app_name | title}}View(LoginRequiredMixin, SuccessMessageMixin, Creat
     model = {{app_name | title}}
     form_class = {{app_name | title}}Form
     permission_required = (,)
-    template_name = 'app_name/app_name_form.html'
-    success_url = reverse_lazy('app_name:app_name_list')
+    template_name = '{{app_name}}/{{app_name}}_form.html'
+    success_url = reverse_lazy('{{app_name}}:{{app_name}}_list')
     success_message = '{{app_name | title}} Added Successfully!!'
 
 
@@ -47,7 +47,7 @@ class Detail{{app_name | title}}View(LoginRequiredMixin, SuccessMessageMixin, De
     context_object_name = '{{app_name}}'
 
 
-class List{{app_name | title}}View(LoginRequiredMixin, StaffRequiredMixin, ListView):
+class List{{app_name | title}}View(LoginRequiredMixin, ListView):
     """
     List All {{app_name | title}}s.
     """
@@ -62,7 +62,7 @@ class Update{{app_name | title}}View(LoginRequiredMixin, SuccessMessageMixin, Up
     """
 
     model = {{app_name | title}}
-    success_url = reverse_lazy('app_name:app_name_list')
+    success_url = reverse_lazy('{{app_name}}:{{app_name}}_list')
     success_message = '{{app_name | title}} Updated Successfully!!'
     fields = ('field',)
     form_class = {{app_name | title}}Form
