@@ -21,9 +21,17 @@ from .serializers import {{app_name | title}}Serializer
 
 class {{app_name | title}}APIView(APIView):
     """
-    For {{app_name | title}}
-    URL: [<host>/api/v1/otp.json]
-    Method Allowed ['GET']
+    API For {{app_name | title}}
+
+    URL: {{app_name}}/api/auth/v1/1.json
+    Method Allowed: ['GET']
+    Params: field_1, field_2
+
+    Example: {
+        "mobile_number": "8982914389",
+        "is_active": "true",
+    }
     """
     permission_classes = [IsAuthenticated, ]
+    allowed_methods = ['GET']
     serializer_class = {{app_name | title}}Serializer

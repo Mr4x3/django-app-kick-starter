@@ -13,7 +13,7 @@ from .views import {{app_name | title}}APIView
 
 
 urlpatterns = [
-    url(r'^{{app_name}}/(?P<pk>\d+)/$', {{app_name | title}}APIView.as_view(), name='{{app_name}}_view'),  # For {{app_name | title}} App
+    url(r'^(?P<pk>\d+)/$', {{app_name | title}}APIView.as_view(), name='{{app_name}}_view'),  # For {{app_name | title}} App
 ]
 
 # Add Multiple Format Support

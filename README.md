@@ -10,7 +10,7 @@
 
 ## Quick Start:
 
-- `$ django-admin startapp --template=https://github.com/Mr4x3/django-app-kick-starter/archive/master.zip --extension=*,py,html,env,md YOUR-APP-NAME`
+- `$ django-admin startapp --template=https://github.com/Mr4x3/django-app-kick-starter/archive/master.zip --extension=py,html,env,md YOUR-APP-NAME`
 
 __or__
 
